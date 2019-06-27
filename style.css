@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/papyrus.png);
+  background-repeat: repeat;
+  font-family: Times, serif, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.navbar {
+  background-color: white !important;
+  height: 85px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.navbar-brand {
+  font-family: "Barrio", cursive;
+  font-size: 40px;
+  background-color: #4aaaa5 !important;
+  color: white !important;
+  padding: 10px;
+  line-height: 67px;
+}
+
+.navbar-nav .nav-item {
+  font-size: 21px;
+  margin: 0 15px 0 15px;
+  float: right !important;
+}
+
+#main-container {
+  padding-top: 50px;
+  min-height: calc(100vh - 140px);
+}
+
+section {
+  background-color: white;
+  border: 1px solid #cccccc;
+  font-size: 20px;
+}
+
+h1 {
+  color: #4aaaa5;
+  padding: 20px 0 0 30px;
+}
+
+#bio-image {
+  width: 300px;
+  height: 300px;
+  padding: 30px 26px 15px 30px;
+}
+
+article {
+  text-align: justify;
+  line-height: 1.2em;
+  padding: 30px;
+}
+
+/* this puts a green border around the drawn2life logo to show it is clickable */
+article a:hover #business-logo {
+  border: 1px solid #4aaaa5;
+}
+#business-logo {
+  height: 0.85em;
+  margin-bottom: -3px;
+}
+footer {
+  padding: 20px 0;
+  font-size: 12px;
+  color: #ffffff;
+  color: #cccccc;
+  text-align: center;
+  background: #666666;
+  border-top: 8px solid #4aaaa5;
+  height: 70px;
+  bottom: 0;
+}
