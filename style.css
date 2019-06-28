@@ -16,6 +16,7 @@ body {
 
 .navbar {
   background-color: white !important;
+  border-bottom: 2px solid #cccccc;
   height: 85px;
 }
 
@@ -37,7 +38,6 @@ body {
 .navbar-nav .nav-item {
   font-size: 21px;
   margin: 0 15px 0 15px;
-  float: right !important;
 }
 
 #main-container {
@@ -54,6 +54,8 @@ section {
 h1 {
   color: #4aaaa5;
   padding: 20px 0 0 30px;
+  font-size: 1.6em;
+  font-weight: 550;
 }
 
 #bio-image {
@@ -72,10 +74,49 @@ article {
 article a:hover #business-logo {
   border: 1px solid #4aaaa5;
 }
+
 #business-logo {
-  height: 0.85em;
-  margin-bottom: -3px;
+  height: 1em;
+  margin-bottom: 2px;
 }
+
+.portfolio-image {
+  width: 333px;
+  height: 250px;
+  padding: 20px 30px 20px 30px;
+}
+
+#portfolio-section {
+  margin-bottom: 50px;
+}
+
+p {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  z-index: 1;
+  width: 273px;
+  height: 50px;
+  margin: 0 0 0 45px;
+  padding: 8px 0 0 0;
+  font-size: 26px;
+  text-align: center;
+  color: white;
+  background-color: #4aaaa5;
+}
+
+form {
+  margin: 30px;
+  margin-bottom: 30px;
+}
+
+button {
+  margin-top: 10px;
+  background-color: #4aaaa5 !important;
+  border-color: #4aaaa5 !important;
+  font-size: 1em !important;
+}
+
 footer {
   padding: 20px 0;
   font-size: 12px;
