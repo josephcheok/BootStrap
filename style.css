@@ -128,3 +128,14 @@ footer {
   height: 70px;
   bottom: 0;
 }
+
+/* @media only screen and (max-width: 991px) {
+  .navbar-brand {
+    display: inline-block;
+    box-sizing: content-box;
+    top: 0 !important;
+    vertical-align: top !important;
+    margin: 0 !important;
+    background-color: blue !important; */
+  }
+}
